@@ -4,9 +4,14 @@
   --very-light-pink: #c7c7c7;
   --text-input-field: #f7f7f7;
   --hospital-green: #acd9b2;
+  --fuente: "Quicksand";
 }
 
 * {
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: var(--fuente);
 }
