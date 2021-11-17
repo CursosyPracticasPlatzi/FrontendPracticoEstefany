@@ -7,11 +7,16 @@
   --fuente: "Quicksand";
 }
 
-* {
-  padding: 0;
+body {
+  font-family: var(--fuente);
   margin: 0;
 }
 
-body {
-  font-family: var(--fuente);
+.login {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100vh;
 }
+/*# sourceMappingURL=style.css.map */
