@@ -1,0 +1,16 @@
+@import "../style.scss";
+
+.title {
+  text-align: initial;
+}
+
+@media screen and (max-width: 640px) {
+  .form-container {
+    height: 100%;
+    justify-items: initial;
+  }
+  .form {
+    height: 100%;
+    justify-content: space-between;
+  }
+}
