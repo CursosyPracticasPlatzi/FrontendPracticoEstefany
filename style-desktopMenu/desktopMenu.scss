@@ -1,0 +1,33 @@
+@import "../componentes-scss/__variables.scss";
+
+.desktop-menu {
+  width: 100px;
+  height: auto;
+  border: 1px solid var(--very-light-pink);
+  border-radius: 8px;
+  padding: 20px 20px 0 20px;
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      text-align: end;
+      &:last-child {
+        padding-top: 20px;
+        border-top: 1px solid var(--very-light-pink);
+        a {
+          color: var(--hospital-green);
+          font-size: var(--sm);
+        }
+      }
+      &:not(:last-child) {
+        font-weight: bold;
+      }
+      a {
+        display: inline-block;
+        color: var(--black);
+        text-decoration: none;
+        margin-bottom: 16px;
+      }
+    }
+  }
+}
