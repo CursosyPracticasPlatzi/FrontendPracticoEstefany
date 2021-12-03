@@ -31,7 +31,7 @@ body {
 .my-orden-container {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  width: 300px;
+  width: 290px;
 }
 
 .my-orden-content {
@@ -39,36 +39,12 @@ body {
   flex-direction: column;
 }
 
-.shopping-cart {
-  display: grid;
-  grid-template-columns: auto 1fr auto auto;
-  gap: 16px;
-  margin-bottom: 24px;
-  align-items: center;
-}
-.shopping-cart figure {
-  margin: 0;
-}
-.shopping-cart figure img {
-  width: 70px;
-  height: 70px;
-  object-fit: cover;
-  border-radius: 20px;
-}
-.shopping-cart p:nth-child(3) {
-  font-size: var(--md);
-  font-weight: bold;
-}
-
 .orden {
   display: grid;
-  grid-template-columns: auto 1fr;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 16px;
-  margin-bottom: 24px;
-  padding: 12px 24px;
-  border-radius: 8px;
-  background-color: var(--text-input-field);
+  margin-bottom: 12px;
 }
 .orden p:nth-child(1) {
   display: flex;
